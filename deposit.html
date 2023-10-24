@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@300&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="transfer.html">Transfer</a>
+        <a href="deposit.html">Deposit</a>
+        <a href="owner.html">Owner</a>
+        <a class="logout-button" href="login.html">Back to Login Page/LogOut</a>
+    </nav>
+    <form action="succesfultranscation.html">
+
+        <label for="norek" class="norek">Your Rekening number: </label>
+        <input type="number" placeholder="Rekening Number" required>
+        <label for="norek" class="norek">PIN: </label>
+        <input type="password" placeholder="PIN" required>
+        <label for="much">How much do you want to transfer: </label>
+        <select name="nominal" id="nominal" required>
+            <option value="Select">Select an amount</option>
+            <option value="50000">50.000</option>
+            <option value="100000">100.000</option>
+            <option value="150000">150.000</option>
+            <option value="200000">200.000</option>
+            <option value="250000">250.000</option>
+        </select>
+        <input type="submit" value="Deposit to Bank">
+    </form>
+</body>
+</html>
